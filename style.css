@@ -32,7 +32,9 @@ img{
 
 
 } */
-
+.ser{
+    width: 50%;
+}
 .search .content{
     position: relative;
     z-index: 2;
