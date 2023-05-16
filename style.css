@@ -84,7 +84,9 @@ input button i{
         margin-top: 8px;
     }
     .ser{
-        width: 50%;
+        
+        margin-left: 8px;
+        margin-right: 8px;
     }
        
    }
