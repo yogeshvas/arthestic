@@ -17,6 +17,7 @@ img{
     display: flex;
     
     
+    
 }
 
 .search img{
@@ -32,15 +33,13 @@ img{
 
 
 } */
-.ser{
-    width: 50%;
-}
+
 .search .content{
     position: relative;
     z-index: 2;
     color: #fff;
     align-items: center;
-    
+    width: 50%;
 }
 
 .search h1{
@@ -84,7 +83,6 @@ input button i{
         margin-top: 8px;
     }
     .ser{
-        
         margin-left: 8px;
         margin-right: 8px;
     }
@@ -95,9 +93,9 @@ input button i{
     height: 100%;
     font-size: 1.1rem;
     border-radius: 50px;
-    padding-left: 60px;
+    padding: 0 auto 0 auto;
     border: 0px;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -125,20 +123,22 @@ input button i{
 
 .images .card .details{
     position: absolute;
-    bottom: -100px;
+    z-index: -4;
+    /* bottom: -100px; */
     /* width: 100%; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 20px;
-    transition: bottom 0.1s ease;
+    transition: bottom 0.5s ease;
     border-radius: 15px;
     background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
 }
 
 .images .card:hover .details{
     bottom: 0;
+    z-index: 0;
 }
 
 
