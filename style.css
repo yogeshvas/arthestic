@@ -94,6 +94,7 @@ input button i{
   padding-left: 55px;
   background: #fff;
   border-radius: 30px;
+   text-align: left;
 }
 .search-box input::placeholder {
   color: #929292;
