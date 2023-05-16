@@ -85,15 +85,21 @@ input button i{
     }
        
    }
-.search-box input{
-    width: 100%;
-    height: 100%;
-    font-size: 1.1rem;
-    border-radius: 50px;
-    padding-left: 50px;
-    border: 0px;
-    text-align: left;
-
+.search-box input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 1.1rem;
+  padding-left: 55px;
+  background: #fff;
+  border-radius: 30px;
+}
+.search-box input::placeholder {
+  color: #929292;
+}
+.search-box input:focus::placeholder {
+  color: #bfbfbf;
 }
 
 .gallery{
